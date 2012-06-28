@@ -35,7 +35,7 @@ It enables you to create and search EO easily.'
   # over the selected files.
   # (See http://rake.rubyforge.org/classes/Rake/FileList.html.)
   #
-  s.source_files = 'cider/**'
+  s.source_files = 'cider/**/*.{h,m}'
 
   # A list of resources included with the Pod. These are copied into the
   # target bundle with a build phase script.
