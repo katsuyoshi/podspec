@@ -35,7 +35,7 @@ It enables you to create and search EO easily.'
   # over the selected files.
   # (See http://rake.rubyforge.org/classes/Rake/FileList.html.)
   #
-  s.source_files = 'cider/*'
+  s.source_files = 'cider/**'
 
   # A list of resources included with the Pod. These are copied into the
   # target bundle with a build phase script.
@@ -43,7 +43,7 @@ It enables you to create and search EO easily.'
   # Also allows the use of the FileList class like `source_files does.
   #
   # s.resource = "icon.png"
-  s.resources = "Resources/*/*.strings"
+  s.resources = "Resources/**/*.strings"
 
   # A list of paths to remove after installing the Pod without the
   # `--no-clean' option. These can be examples, docs, and any other type
