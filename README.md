@@ -1,0 +1,4 @@
+podspec
+=======
+
+my podspec
